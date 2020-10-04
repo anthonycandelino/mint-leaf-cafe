@@ -59,6 +59,7 @@
   .btn-primary {
     background-color: #5aa17f;
     border-color: #137a63;
+    color:white;
     -webkit-box-shadow: 0 6px 5px -5px #999;
     -moz-box-shadow: 0 6px 5px -5px #999;
     box-shadow: 0 6px 5px -5px #999;
