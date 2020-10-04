@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
   }
 
+  a:link {
+    text-decoration: none;
+    color: #137a63;
+  }
+
   nav .navbar-nav li a :hover {
     color: #5aa17f !important;
   }
@@ -60,7 +65,7 @@
   }
 
   .btn-primary:hover {
-    background-color: #137a63;;
+    background-color: #137a63;
     border-color: #5aa17f;
     -webkit-box-shadow: 0 6px 5px -5px #999;
     -moz-box-shadow: 0 6px 5px -5px #999;
@@ -72,6 +77,19 @@
     border-color: black !important;
     font-weight: 100;
     color: white !important;
+  }
+
+  footer {
+    padding: 30px 0px;
+    color: #137a63;
+  }
+
+  .fa {
+    padding: 24px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
   }
 
   /* normal */
