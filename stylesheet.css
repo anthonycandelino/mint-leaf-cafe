@@ -46,10 +46,11 @@
   .jumbotron {
     text-align: center;
     background-color: white;
+    margin-bottom: 0px !important;
   }
   
   .card {
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
     text-align: center;
     -webkit-box-shadow: 0 6px 5px -5px #999;
     -moz-box-shadow: 0 6px 5px -5px #999;
@@ -83,6 +84,7 @@
   footer {
     padding: 30px 0px;
     color: #137a63;
+    height: 100px;
   }
 
   .fa {
