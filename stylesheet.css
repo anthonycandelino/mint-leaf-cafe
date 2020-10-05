@@ -1,5 +1,6 @@
 /*  main green: #137a63
     light green: #5aa17f
+    ice blue: #428df5
 */
 
   html {
@@ -39,22 +40,37 @@
     color: #137a63 !important;
   }
 
-  .section {
+  /* .section {
     padding-top: 20px;
-  }
+  } */
 
   .jumbotron {
     text-align: center;
     background-color: white;
     margin-bottom: 0px !important;
+    padding: 36px 36px;
   }
   
+  .cold {
+    font-size: 20px !important;
+    color: #428df5;
+  }
+
   .card {
     margin-bottom: 25px !important;
     text-align: center;
+    min-width: 290px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
     -webkit-box-shadow: 0 6px 5px -5px #999;
     -moz-box-shadow: 0 6px 5px -5px #999;
     box-shadow: 0 6px 5px -5px #999;
+  }
+
+  .card-img-top {
+    width: auto;
+    height: 140px;
+    object-fit: cover;
   }
 
   .btn-primary {
@@ -86,14 +102,14 @@
     color: #137a63;
     height: 100px;
   }
-
+/* 
   .fa {
     padding: 24px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-  }
+  } */
 
   /* normal */
   @media (min-width: 768px) {

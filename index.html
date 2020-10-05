@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <script src="https://use.fontawesome.com/f1a3177934.js"></script>
     <title>Home - Mint Leaf Cafe</title>
   </head>
@@ -21,13 +22,13 @@
             <div class="navbar-collapse collapse" id="navbar9">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#beverageMenu" id="aboutUsLink">Beverage Menu</a>
+                        <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#foodMenu" id="menuLink">Food Menu</a>
+                        <a class="nav-link" href="#menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#locations" id="locationsLink">Locations</a>
+                        <a class="nav-link" href="#locations">Locations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contactUs">Contact Us</a>
@@ -38,93 +39,171 @@
     </nav>
 
     <div class="container section">
-        <div class="jumbotron">
-            <h1>Weekly Specials</h1>
+        <div id="about" class="jumbotron">
+            <h1>About Us</h1>
         </div>
     </div>
 
     <div class="container section">
-        <div id="beverageMenu" class="jumbotron">
-            <h1>Beverage Menu</h1>
+        <div id="menu" class="jumbotron">
+            <h1>Beverage Menu</h1>  
+            <p>Our seasonal selection of award winning teas as well as coffee options for the java lovers out there</p>
+            <hr class="accent my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <span class="card-title"><b>Cinnamon Bun Chai Latte </b></i></span>
+                                <p class="card-text">Cinnamon, clove and ginger flavours topped with milk foam</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <span class="card-title"><b>Pumpkin Spiced Tea </b><i class="fa fa-snowflake-o cold"></i></span>
+                                <p class="card-text">Sweet and creamy with notes of pumpkin and white chocolate</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <span class="card-title"><b>Apple Crumble Chai Tea </b><i class="fa fa-snowflake-o cold"></i></span>
+                                <p class="card-text">Notes of apple, oat, and spices with a sweet and smooth finish</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <span class="card-title"><b>Pumpkin Matcha Latte </b></i></span>
+                                <p class="card-text">Sweet and creamy matcha with a touch of fall flavour and topped with milk foam</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <span class="card-title"><b>Pumpkin Matcha Tea </b><i class="fa fa-snowflake-o cold"></i></span>
+                                <p class="card-text">Our original matcha tea with a touch of fall flavour</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <span class="card-title"><b>Campfire S'mores Chai Tea </b></i></span>
+                                <p class="card-text">Notes of apple, oat, and spices with a sweet and smooth finish</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span>Note: All teas marked with <i class="fa fa-snowflake-o cold"></i> can also be served on ice.</span>
         </div>
     </div>
     
     <div class="container section">
         <div id="foodMenu" class="jumbotron">
             <h1>Food Menu</h1>
+            <p>Our baked goods assortments of muffins and pastries change daily but here are some of our regular options</p>
+            <hr class="accent my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <span class="card-title"><b>Bagel w/ Spread</b></i></span>
+                                <p class="card-text">Choose from: Plain, Sesame, Everything, Cinnamon Raisin, Poppyseed, and 4-Cheese and top with butter or our house-made cream cheese*</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <span class="card-title"><b>Avocado Toast</b></i></span>
+                                <p class="card-text">Freshly sliced avocado on a slice of white, whole wheat, or rye bread, with additional finishing touches*</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <span class="card-title"><b>PB & J Sandwich</b></i></span>
+                                <p class="card-text">A cult-classic with creamy peanut butter and locally sourced jam varieties</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>* Indicates an extra charge may be applied.</p>
         </div>
     </div>
 
     <div class="container section">
         <div id="locations" class="jumbotron">
             <h1>Locations</h1>
+            <hr class="accent my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="cafe1.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Toronto, ON</h5>
+                                <p class="card-text">Located in the heart of the financial distict.</p>
+                                <a href="https://goo.gl/maps/1t2AN5zZLL9sL3FV6" class="btn btn-primary">Directions <i class="material-icons" style="font-size:16px">&#xe52e;</i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="cafe2.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Kitchener, ON</h5>
+                                <p class="card-text">Located in the Downtown Communitech Area.</p>
+                                <a href="https://goo.gl/maps/Nf1B7pHoKVBgtUAi6" class="btn btn-primary">Directions <i class="material-icons" style="font-size:16px">&#xe52e;</i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="cafe 3.jpeg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Waterloo, ON</h5>
+                                <p class="card-text">Located in the Uptown Shopping District.</p>
+                                <a href="https://goo.gl/maps/UDuqdrJLB8ANvQFG9" class="btn btn-primary">Directions <i class="material-icons" style="font-size:16px">&#xe52e;</i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="cafe4.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Guelph, ON</h5>
+                                <p class="card-text">Located on main strip Downtown.</p>
+                                <a href="https://goo.gl/maps/cmBUFHSykvtz19Y48" class="btn btn-primary">Directions <i class="material-icons" style="font-size:16px">&#xe52e;</i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="cafe5.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Vancouver, BC</h5>
+                                <p class="card-text">Located in heart of Downtown Vancouver with seasonal patio.</p>
+                                <a href="https://goo.gl/maps/jpKgCp3ZVzYQDsS98" class="btn btn-primary">Directions <i class="material-icons" style="font-size:16px">&#xe52e;</i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="cafe6.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Montreal, QC</h5>
+                                <p class="card-text">Location TBA.</p>
+                                <a class="btn btn-primary disabled">Coming Soon!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="cafe1.jpg" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Toronto, ON</h5>
-                        <p class="card-text">Located in the heart of the financial distict.</p>
-                        <a href="https://goo.gl/maps/1t2AN5zZLL9sL3FV6" class="btn btn-primary">Directions <i class="material-icons" style="font-size:16px">&#xe52e;</i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="cafe2.jpg" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Kitchener, ON</h5>
-                        <p class="card-text">Located in the Downtown Communitech Area.</p>
-                        <a href="https://goo.gl/maps/Nf1B7pHoKVBgtUAi6" class="btn btn-primary">Directions <i class="material-icons" style="font-size:16px">&#xe52e;</i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="cafe 3.jpeg" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Waterloo, ON</h5>
-                        <p class="card-text">Located in the Uptown Shopping District.</p>
-                        <a href="https://goo.gl/maps/UDuqdrJLB8ANvQFG9" class="btn btn-primary">Directions <i class="material-icons" style="font-size:16px">&#xe52e;</i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="cafe4.jpg" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Guelph, ON</h5>
-                        <p class="card-text">Located on main strip Downtown.</p>
-                        <a href="https://goo.gl/maps/cmBUFHSykvtz19Y48" class="btn btn-primary">Directions <i class="material-icons" style="font-size:16px">&#xe52e;</i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="cafe5.jpg" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Vancouver, BC</h5>
-                        <p class="card-text">Located in heart of Downtown Vancouver with seasonal patio.</p>
-                        <a href="https://goo.gl/maps/jpKgCp3ZVzYQDsS98" class="btn btn-primary">Directions <i class="material-icons" style="font-size:16px">&#xe52e;</i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="cafe6.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Montreal, QC</h5>
-                        <p class="card-text">Location TBA.</p>
-                        <a class="btn btn-primary disabled">Coming Soon!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <br><br>    
 
