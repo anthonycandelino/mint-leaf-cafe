@@ -73,6 +73,11 @@
     object-fit: cover;
   }
 
+  .card-body a {
+    text-decoration: none;
+    color: white;
+  }
+
   .btn-primary {
     background-color: #5aa17f;
     border-color: #137a63;
