@@ -44,6 +44,11 @@
     padding-top: 20px;
   } */
 
+  .carousel-item img {
+    max-height: 900px;
+    width: auto;
+  }
+
   .jumbotron {
     text-align: center;
     background-color: white;
