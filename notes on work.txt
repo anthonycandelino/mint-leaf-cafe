@@ -1,0 +1,14 @@
+Color Scheme:
+White
+Grey bg: # f5f8f6
+Accent Color: GREEN: # 405e32
+
+Emotional Variables:
+green
+https://www.verywellmind.com/color-psychology-green-2795817
+
+Gestalt Principles:
+- Law of balance/symmetry (menu item boxes)
+- Law of proximity (menu items close together)
+and
+

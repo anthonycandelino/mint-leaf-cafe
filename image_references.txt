@@ -1,0 +1,6 @@
+cafe1: https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80
+cafe2: https://ivebeenbit.ca/wp-content/uploads/2018/11/203-Balzacs-Kitchener-767x479.jpg
+cafe3: https://junipercafe.ca/wp-content/uploads/2019/07/2019-Juniper-Cafe-Kingston-Coffee-Shop-TETT-Centre-Patio-1024x682.jpeg
+cafe4: https://impeccabuild.com.au/wp-content/uploads/2020/03/Cafe-Design-Coffee-Shop-Design-Cafe-Lighting-ImpeccaBuild-2-scaled.jpg
+cafe5: https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80
+cafe6: https://tastet.ca/wp-content/uploads/2015/12/plus-beaux-cafes-montreal-cafe-parvis.png
