@@ -40,9 +40,10 @@
     color: #137a63 !important;
   }
 
-  /* .section {
-    padding-top: 20px;
-  } */
+  .blur {
+    filter: blur(2.5px);
+    -webkit-filter: blur(2.5px);
+  }
 
   .carousel-item img {
     max-height: 900px;
